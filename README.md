@@ -26,13 +26,13 @@ Total: **7,315** lines of code across **26** files in the top 5 languages.
 
 ## OpenSSF Scorecard
 
-Overall score: **3 / 10**
+Overall score: **2.1 / 10**
 
 Lowest-scoring checks:
 
 - **Packaging** (-1/10) — packaging workflow not detected
+- **Maintained** (0/10) — 0 commit(s) and 0 issue activity found in the last 90 days -- score normalized to 0
 - **Code-Review** (1/10) — Found 5/30 approved changesets -- score normalized to 1
-- **Dangerous-Workflow** (-1/10) — no workflows found
 
 ## Source
 
@@ -46,7 +46,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 1,244 · **Forks**: 81 · **Open issues**: 112 · **Contributors**: 20
+- **Stars**: 1,245 · **Forks**: 81 · **Open issues**: 112 · **Contributors**: 20
 
 ## Totals (cumulative)
 
@@ -56,12 +56,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-31 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-08-01 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-07-02 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last180d | 2026-04-03 | 0 | 0 | 0 | 2 | 0 | 0 |
-| 360d | 2025-10-05 | 1 | 0 | 0 | 3 | 2 | 0 |
-| last720d | 2024-10-10 | 1 | 3 | 0 | 8 | 2 | 19 |
+| 30d | 2026-09-01 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-08-02 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-07-03 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-04-04 | 0 | 0 | 0 | 2 | 0 | 8 |
+| 360d | 2025-10-06 | 1 | 0 | 0 | 3 | 2 | 13 |
+| last720d | 2024-10-11 | 1 | 3 | 0 | 8 | 2 | 19 |
 
 ## Improve this data
 
@@ -72,4 +72,4 @@ Install metadata for wavemon lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260930.yml` · 2026-09-30T06:26:46Z._
+_Snapshot: `data/card/261001.yml` · 2026-10-01T06:31:49Z._
