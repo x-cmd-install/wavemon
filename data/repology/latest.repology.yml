@@ -1,40 +1,14 @@
-- repo: debian_14
-  subrepo: forky/main
+- repo: manjaro_unstable
+  subrepo: extra
   srcname: wavemon
-  binnames:
-    - wavemon
+  binname: wavemon
   visiblename: wavemon
   version: 0.9.7
-  origversion: 0.9.7-0.1
+  origversion: 0.9.7-1
   status: newest
-  maintainers:
-    - jmccrohan@gmail.com
-  categories:
-    - net
-- repo: debian_unstable
-  subrepo: sid/main
-  srcname: wavemon
-  binnames:
-    - wavemon
-  visiblename: wavemon
-  version: 0.9.7
-  origversion: 0.9.7-0.1
-  status: newest
-  maintainers:
-    - jmccrohan@gmail.com
-  categories:
-    - net
-- repo: deepin_unstable
-  subrepo: main
-  srcname: wavemon
-  binnames:
-    - wavemon
-  visiblename: wavemon
-  version: 0.8.2
-  origversion: 0.8.2-1
-  status: outdated
-  maintainers:
-    - jmccrohan@gmail.com
+  summary: Ncurses-based monitoring application for wireless network devices
+  licenses:
+    - GPL-3.0-or-later
 - repo: deepin_25
   subrepo: community
   srcname: wavemon
@@ -70,129 +44,6 @@
   version: 0.9.7
   origversion: 0.9.7-0.1
   status: newest
-  maintainers:
-    - jmccrohan@gmail.com
-  categories:
-    - net
-- repo: epel_6
-  srcname: wavemon
-  visiblename: wavemon
-  version: 0.7.6
-  origversion: 0.7.6-4.el6
-  status: outdated
-  summary: Ncurses-based monitoring application for wireless network devices
-  licenses:
-    - GPLv2+
-  categories:
-    - Unspecified
-- repo: ptxdist
-  srcname: wavemon
-  visiblename: wavemon
-  version: 0.7.5
-  origversion: null
-  status: outdated
-  licenses:
-    - GPL-3.0-or-later
-- repo: pureos_amber
-  subrepo: amber/main
-  srcname: wavemon
-  binnames:
-    - wavemon
-  visiblename: wavemon
-  version: 0.8.2
-  origversion: 0.8.2-1
-  status: outdated
-  maintainers:
-    - jmccrohan@gmail.com
-  categories:
-    - net
-- repo: pureos_byzantium
-  subrepo: byzantium/main
-  srcname: wavemon
-  binnames:
-    - wavemon
-  visiblename: wavemon
-  version: 0.9.1
-  origversion: 0.9.1-1
-  status: outdated
-  maintainers:
-    - jmccrohan@gmail.com
-  categories:
-    - net
-- repo: pureos_landing
-  subrepo: landing/main
-  srcname: wavemon
-  binnames:
-    - wavemon
-  visiblename: wavemon
-  version: 0.9.1
-  origversion: 0.9.1-1
-  status: outdated
-  maintainers:
-    - jmccrohan@gmail.com
-  categories:
-    - net
-- repo: raspbian_oldstable
-  subrepo: main
-  srcname: wavemon
-  binnames:
-    - wavemon
-  visiblename: wavemon
-  version: 0.9.1
-  origversion: 0.9.1-1
-  status: outdated
-  maintainers:
-    - jmccrohan@gmail.com
-  categories:
-    - net
-- repo: raspbian_stable
-  subrepo: main
-  srcname: wavemon
-  binnames:
-    - wavemon
-  visiblename: wavemon
-  version: 0.9.1
-  origversion: 0.9.1-1
-  status: outdated
-  maintainers:
-    - jmccrohan@gmail.com
-  categories:
-    - net
-- repo: raspbian_testing
-  subrepo: main
-  srcname: wavemon
-  binnames:
-    - wavemon
-  visiblename: wavemon
-  version: 0.9.7
-  origversion: 0.9.7-0.1
-  status: newest
-  maintainers:
-    - jmccrohan@gmail.com
-  categories:
-    - net
-- repo: pardus_21
-  subrepo: main
-  srcname: wavemon
-  binnames:
-    - wavemon
-  visiblename: wavemon
-  version: 0.9.1
-  origversion: 0.9.1-1
-  status: outdated
-  maintainers:
-    - jmccrohan@gmail.com
-  categories:
-    - net
-- repo: parrot
-  subrepo: parrot/main
-  srcname: wavemon
-  binnames:
-    - wavemon
-  visiblename: wavemon
-  version: 0.9.1
-  origversion: 0.9.1-1
-  status: outdated
   maintainers:
     - jmccrohan@gmail.com
   categories:
@@ -314,18 +165,6 @@
     - cielesti@protonmail.com
   licenses:
     - GPL-2.0-or-later
-- repo: aosc
-  srcname: app-network/wavemon
-  binname: wavemon
-  visiblename: wavemon
-  version: 0.9.6
-  origversion: null
-  status: outdated
-  summary: Ncurses-based monitoring application for wireless network devices
-  maintainers:
-    - fallback-mnt-aosc@repology
-  categories:
-    - net
 - repo: alpine_3_21
   subrepo: community
   srcname: wavemon
@@ -459,6 +298,18 @@
     - GPL-3.0-or-later
   categories:
     - Networking/Other
+- repo: aosc
+  srcname: app-network/wavemon
+  binname: wavemon
+  visiblename: wavemon
+  version: 0.9.6
+  origversion: null
+  status: outdated
+  summary: Ncurses-based monitoring application for wireless network devices
+  maintainers:
+    - fallback-mnt-aosc@repology
+  categories:
+    - net
 - repo: arch
   subrepo: extra
   srcname: wavemon
@@ -521,6 +372,54 @@
     - jmccrohan@gmail.com
   categories:
     - net
+- repo: debian_14
+  subrepo: forky/main
+  srcname: wavemon
+  binnames:
+    - wavemon
+  visiblename: wavemon
+  version: 0.9.7
+  origversion: 0.9.7-0.1
+  status: newest
+  maintainers:
+    - jmccrohan@gmail.com
+  categories:
+    - net
+- repo: debian_unstable
+  subrepo: sid/main
+  srcname: wavemon
+  binnames:
+    - wavemon
+  visiblename: wavemon
+  version: 0.9.7
+  origversion: 0.9.7-0.1
+  status: newest
+  maintainers:
+    - jmccrohan@gmail.com
+  categories:
+    - net
+- repo: deepin_unstable
+  subrepo: main
+  srcname: wavemon
+  binnames:
+    - wavemon
+  visiblename: wavemon
+  version: 0.8.2
+  origversion: 0.8.2-1
+  status: outdated
+  maintainers:
+    - jmccrohan@gmail.com
+- repo: epel_6
+  srcname: wavemon
+  visiblename: wavemon
+  version: 0.7.6
+  origversion: 0.7.6-4.el6
+  status: outdated
+  summary: Ncurses-based monitoring application for wireless network devices
+  licenses:
+    - GPLv2+
+  categories:
+    - Unspecified
 - repo: epel_7
   srcname: wavemon
   visiblename: wavemon
@@ -659,6 +558,28 @@
     - GPL-3
   categories:
     - net-wireless
+- repo: manjaro_stable
+  subrepo: extra
+  srcname: wavemon
+  binname: wavemon
+  visiblename: wavemon
+  version: 0.9.7
+  origversion: 0.9.7-1
+  status: newest
+  summary: Ncurses-based monitoring application for wireless network devices
+  licenses:
+    - GPL-3.0-or-later
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: wavemon
+  binname: wavemon
+  visiblename: wavemon
+  version: 0.9.7
+  origversion: 0.9.7-1
+  status: newest
+  summary: Ncurses-based monitoring application for wireless network devices
+  licenses:
+    - GPL-3.0-or-later
 - repo: gentoo
   srcname: net-wireless/wavemon
   visiblename: net-wireless/wavemon
@@ -701,19 +622,6 @@
     - jmccrohan@gmail.com
   categories:
     - net
-- repo: ubuntu_22_04
-  subrepo: jammy/universe
-  srcname: wavemon
-  binnames:
-    - wavemon
-  visiblename: wavemon
-  version: 0.9.1
-  origversion: 0.9.1-1
-  status: outdated
-  maintainers:
-    - jmccrohan@gmail.com
-  categories:
-    - universe/net
 - repo: liguros_stable
   srcname: net-wireless/wavemon
   visiblename: net-wireless/wavemon
@@ -728,12 +636,6 @@
     - GPL-3
   categories:
     - net-wireless
-- repo: pld
-  srcname: wavemon
-  visiblename: wavemon
-  version: 0.7.6
-  origversion: 0.7.6-2
-  status: outdated
 - repo: liguros_stable
   srcname: net-wireless/wavemon
   visiblename: net-wireless/wavemon
@@ -790,19 +692,6 @@
     - GPL-3
   categories:
     - net-wireless
-- repo: parrot
-  subrepo: parrot-updates/main
-  srcname: wavemon
-  binnames:
-    - wavemon
-  visiblename: wavemon
-  version: 0.9.1
-  origversion: 0.9.1-1
-  status: outdated
-  maintainers:
-    - jmccrohan@gmail.com
-  categories:
-    - net
 - repo: mageia_9
   subrepo: core/release
   srcname: wavemon
@@ -847,39 +736,6 @@
     - GPLv2+
   categories:
     - System/Networking
-- repo: manjaro_stable
-  subrepo: extra
-  srcname: wavemon
-  binname: wavemon
-  visiblename: wavemon
-  version: 0.9.7
-  origversion: 0.9.7-1
-  status: newest
-  summary: Ncurses-based monitoring application for wireless network devices
-  licenses:
-    - GPL-3.0-or-later
-- repo: manjaro_testing
-  subrepo: extra
-  srcname: wavemon
-  binname: wavemon
-  visiblename: wavemon
-  version: 0.9.7
-  origversion: 0.9.7-1
-  status: newest
-  summary: Ncurses-based monitoring application for wireless network devices
-  licenses:
-    - GPL-3.0-or-later
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: wavemon
-  binname: wavemon
-  visiblename: wavemon
-  version: 0.9.7
-  origversion: 0.9.7-1
-  status: newest
-  summary: Ncurses-based monitoring application for wireless network devices
-  licenses:
-    - GPL-3.0-or-later
 - repo: nix_stable_24_05
   srcname: wavemon
   visiblename: wavemon
@@ -1090,6 +946,137 @@
   summary: Ncurses-based monitoring application for wireless network devices
   licenses:
     - GPL-3.0-or-later
+- repo: pardus_21
+  subrepo: main
+  srcname: wavemon
+  binnames:
+    - wavemon
+  visiblename: wavemon
+  version: 0.9.1
+  origversion: 0.9.1-1
+  status: outdated
+  maintainers:
+    - jmccrohan@gmail.com
+  categories:
+    - net
+- repo: parrot
+  subrepo: parrot-updates/main
+  srcname: wavemon
+  binnames:
+    - wavemon
+  visiblename: wavemon
+  version: 0.9.1
+  origversion: 0.9.1-1
+  status: outdated
+  maintainers:
+    - jmccrohan@gmail.com
+  categories:
+    - net
+- repo: parrot
+  subrepo: parrot/main
+  srcname: wavemon
+  binnames:
+    - wavemon
+  visiblename: wavemon
+  version: 0.9.1
+  origversion: 0.9.1-1
+  status: outdated
+  maintainers:
+    - jmccrohan@gmail.com
+  categories:
+    - net
+- repo: pld
+  srcname: wavemon
+  visiblename: wavemon
+  version: 0.7.6
+  origversion: 0.7.6-2
+  status: outdated
+- repo: ptxdist
+  srcname: wavemon
+  visiblename: wavemon
+  version: 0.7.5
+  origversion: null
+  status: outdated
+  licenses:
+    - GPL-3.0-or-later
+- repo: pureos_amber
+  subrepo: amber/main
+  srcname: wavemon
+  binnames:
+    - wavemon
+  visiblename: wavemon
+  version: 0.8.2
+  origversion: 0.8.2-1
+  status: outdated
+  maintainers:
+    - jmccrohan@gmail.com
+  categories:
+    - net
+- repo: pureos_byzantium
+  subrepo: byzantium/main
+  srcname: wavemon
+  binnames:
+    - wavemon
+  visiblename: wavemon
+  version: 0.9.1
+  origversion: 0.9.1-1
+  status: outdated
+  maintainers:
+    - jmccrohan@gmail.com
+  categories:
+    - net
+- repo: pureos_landing
+  subrepo: landing/main
+  srcname: wavemon
+  binnames:
+    - wavemon
+  visiblename: wavemon
+  version: 0.9.1
+  origversion: 0.9.1-1
+  status: outdated
+  maintainers:
+    - jmccrohan@gmail.com
+  categories:
+    - net
+- repo: raspbian_oldstable
+  subrepo: main
+  srcname: wavemon
+  binnames:
+    - wavemon
+  visiblename: wavemon
+  version: 0.9.1
+  origversion: 0.9.1-1
+  status: outdated
+  maintainers:
+    - jmccrohan@gmail.com
+  categories:
+    - net
+- repo: raspbian_stable
+  subrepo: main
+  srcname: wavemon
+  binnames:
+    - wavemon
+  visiblename: wavemon
+  version: 0.9.1
+  origversion: 0.9.1-1
+  status: outdated
+  maintainers:
+    - jmccrohan@gmail.com
+  categories:
+    - net
+- repo: raspbian_testing
+  subrepo: main
+  srcname: wavemon
+  binnames:
+    - wavemon
+  visiblename: wavemon
+  version: 0.9.7
+  origversion: 0.9.7-0.1
+  status: newest
+  maintainers:
+    - jmccrohan@gmail.com
+  categories:
+    - net
 - repo: rosa_2019_1
   subrepo: contrib/release
   srcname: wavemon
@@ -1204,6 +1191,19 @@
   visiblename: wavemon
   version: 0.8.2
   origversion: 0.8.2-1
+  status: outdated
+  maintainers:
+    - jmccrohan@gmail.com
+  categories:
+    - universe/net
+- repo: ubuntu_22_04
+  subrepo: jammy/universe
+  srcname: wavemon
+  binnames:
+    - wavemon
+  visiblename: wavemon
+  version: 0.9.1
+  origversion: 0.9.1-1
   status: outdated
   maintainers:
     - jmccrohan@gmail.com
