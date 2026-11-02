@@ -1,3 +1,25 @@
+- repo: manjaro_stable
+  subrepo: extra
+  srcname: wavemon
+  binname: wavemon
+  visiblename: wavemon
+  version: 0.9.4
+  origversion: 0.9.4-1
+  status: outdated
+  summary: Ncurses-based monitoring application for wireless network devices
+  licenses:
+    - GPL3
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: wavemon
+  binname: wavemon
+  visiblename: wavemon
+  version: 0.9.4
+  origversion: 0.9.4-1
+  status: outdated
+  summary: Ncurses-based monitoring application for wireless network devices
+  licenses:
+    - GPL3
 - repo: manjaro_unstable
   subrepo: extra
   srcname: wavemon
@@ -9,45 +31,6 @@
   summary: Ncurses-based monitoring application for wireless network devices
   licenses:
     - GPL-3.0-or-later
-- repo: deepin_25
-  subrepo: community
-  srcname: wavemon
-  binnames:
-    - wavemon
-  visiblename: wavemon
-  version: 0.9.1
-  origversion: 0.9.1-1
-  status: outdated
-  maintainers:
-    - jmccrohan@gmail.com
-  categories:
-    - misc
-- repo: devuan_4_0
-  subrepo: chimaera/main
-  srcname: wavemon
-  binnames:
-    - wavemon
-  visiblename: wavemon
-  version: 0.9.1
-  origversion: 0.9.1-1
-  status: outdated
-  maintainers:
-    - jmccrohan@gmail.com
-  categories:
-    - net
-- repo: devuan_unstable
-  subrepo: unstable/main
-  srcname: wavemon
-  binnames:
-    - wavemon
-  visiblename: wavemon
-  version: 0.9.7
-  origversion: 0.9.7-0.1
-  status: newest
-  maintainers:
-    - jmccrohan@gmail.com
-  categories:
-    - net
 - repo: alpine_3_17
   subrepo: community
   srcname: wavemon
@@ -87,6 +70,19 @@
     - fabian@affolter-engineering.ch
   licenses:
     - GPL-2.0-or-later
+- repo: debian_12
+  subrepo: bookworm/main
+  srcname: wavemon
+  binnames:
+    - wavemon
+  visiblename: wavemon
+  version: 0.9.1
+  origversion: 0.9.1-1
+  status: outdated
+  maintainers:
+    - jmccrohan@gmail.com
+  categories:
+    - net
 - repo: alpine_3_18
   subrepo: community
   srcname: wavemon
@@ -346,19 +342,6 @@
     - jmccrohan@gmail.com
   categories:
     - net
-- repo: debian_12
-  subrepo: bookworm/main
-  srcname: wavemon
-  binnames:
-    - wavemon
-  visiblename: wavemon
-  version: 0.9.1
-  origversion: 0.9.1-1
-  status: outdated
-  maintainers:
-    - jmccrohan@gmail.com
-  categories:
-    - net
 - repo: debian_13
   subrepo: trixie/main
   srcname: wavemon
@@ -409,6 +392,45 @@
   status: outdated
   maintainers:
     - jmccrohan@gmail.com
+- repo: deepin_25
+  subrepo: community
+  srcname: wavemon
+  binnames:
+    - wavemon
+  visiblename: wavemon
+  version: 0.9.1
+  origversion: 0.9.1-1
+  status: outdated
+  maintainers:
+    - jmccrohan@gmail.com
+  categories:
+    - misc
+- repo: devuan_4_0
+  subrepo: chimaera/main
+  srcname: wavemon
+  binnames:
+    - wavemon
+  visiblename: wavemon
+  version: 0.9.1
+  origversion: 0.9.1-1
+  status: outdated
+  maintainers:
+    - jmccrohan@gmail.com
+  categories:
+    - net
+- repo: devuan_unstable
+  subrepo: unstable/main
+  srcname: wavemon
+  binnames:
+    - wavemon
+  visiblename: wavemon
+  version: 0.9.7
+  origversion: 0.9.7-0.1
+  status: newest
+  maintainers:
+    - jmccrohan@gmail.com
+  categories:
+    - net
 - repo: epel_6
   srcname: wavemon
   visiblename: wavemon
@@ -558,26 +580,16 @@
     - GPL-3
   categories:
     - net-wireless
-- repo: manjaro_stable
-  subrepo: extra
+- repo: nix_stable_24_05
   srcname: wavemon
-  binname: wavemon
   visiblename: wavemon
-  version: 0.9.7
-  origversion: 0.9.7-1
-  status: newest
+  version: 0.9.5
+  origversion: null
+  status: outdated
   summary: Ncurses-based monitoring application for wireless network devices
-  licenses:
-    - GPL-3.0-or-later
-- repo: manjaro_testing
-  subrepo: extra
-  srcname: wavemon
-  binname: wavemon
-  visiblename: wavemon
-  version: 0.9.7
-  origversion: 0.9.7-1
-  status: newest
-  summary: Ncurses-based monitoring application for wireless network devices
+  maintainers:
+    - 7c6f434c@mail.ru
+    - fpletz@fnordicwalking.de
   licenses:
     - GPL-3.0-or-later
 - repo: gentoo
@@ -736,18 +748,6 @@
     - GPLv2+
   categories:
     - System/Networking
-- repo: nix_stable_24_05
-  srcname: wavemon
-  visiblename: wavemon
-  version: 0.9.5
-  origversion: null
-  status: outdated
-  summary: Ncurses-based monitoring application for wireless network devices
-  maintainers:
-    - 7c6f434c@mail.ru
-    - fpletz@fnordicwalking.de
-  licenses:
-    - GPL-3.0-or-later
 - repo: nix_stable_24_11
   srcname: wavemon
   visiblename: wavemon
